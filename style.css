@@ -1,0 +1,14 @@
+.countries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.country {
+  background-color: pink;
+  border: 2px solid tomato;
+  border-radius: 20px;
+  padding: 10px;
+}
+.country img {
+  width: 200px;
+}
